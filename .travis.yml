@@ -2,5 +2,5 @@ language: csharp
 mono: latest
 dotnet: 3.1.200
 script:
-  - dotnet restore
+  - msbuild /t:Restore
   - msbuild
